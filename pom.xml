@@ -57,6 +57,26 @@
         </dependencies>
     </dependencyManagement>
 
+    <scm>
+        <connection>git@github.com:RomanKostenko/deis-kubernetes-get-service-url-spring-boot-starter.git</connection>
+        <url>git@github.com:RomanKostenko/deis-kubernetes-get-service-url-spring-boot-starter.git</url>
+        <developerConnection>git@github.com:RomanKostenko/deis-kubernetes-get-service-url-spring-boot-starter.git</developerConnection>
+    </scm>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>oss-snapshots</id>
+            <name>oss nexus snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>oss-releases</id>
+            <name>oss nexus releases</name>
+            <uniqueVersion>true</uniqueVersion>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+        </repository>
+    </distributionManagement>
+
     <repositories>
         <repository>
             <id>spring-snapshots</id>
