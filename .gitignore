@@ -95,3 +95,7 @@ derbyDB
 derby.log
 *.log
 **/resources/rebel.xml
+
+release.properties
+
+pom.xml.releaseBackup
