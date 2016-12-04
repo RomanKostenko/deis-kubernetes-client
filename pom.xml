@@ -58,8 +58,8 @@
     </dependencyManagement>
 
     <scm>
-        <connection>git@github.com:RomanKostenko/deis-kubernetes-get-service-url-spring-boot-starter.git</connection>
-        <developerConnection>git@github.com:RomanKostenko/deis-kubernetes-get-service-url-spring-boot-starter.git</developerConnection>
+        <connection>scm:git:ssh://git@github.com:RomanKostenko/deis-kubernetes-get-service-url-spring-boot-starter.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:RomanKostenko/deis-kubernetes-get-service-url-spring-boot-starter.git</developerConnection>
         <url>https://github.com/RomanKostenko/deis-kubernetes-get-service-url-spring-boot-starter/tree/master</url>
     </scm>
 
